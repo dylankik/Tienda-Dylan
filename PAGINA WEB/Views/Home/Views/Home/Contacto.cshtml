@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Contacto - Tienda de Ropa";
+}
+
+<h1>Contacto</h1>
+<p>¿Tienes alguna pregunta? Escríbenos.</p>
+
+<form method="post" action="/Home/Contacto">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required /><br />
+    
+    <label>Email:</label>
+    <input type="email" name="email" required /><br />
+    
+    <label>Mensaje:</label>
+    <textarea name="mensaje" required></textarea><br />
+    
+    <button type="submit">Enviar</button>
+</form>

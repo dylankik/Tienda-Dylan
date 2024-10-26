@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form label, form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
